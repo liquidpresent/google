@@ -3,9 +3,36 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10%;
 }
 
 .navbar{
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+
+
+
+#botoes{
+    padding: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#F2F2F2;
+    color: #70757A;
+    text-align: left;
+    padding: 0px,10px,20px,10px;
+  }
+
+#direita{
+    align-items: right;
+}
+
+a{
+    text-decoration: none;
 }
